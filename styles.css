@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Lobster Two", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Arvo&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Source+Sans+Pro&display=swap");
+  }  
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: hotpink;
+
+}
+
+.waterfall.baldur.nordic-1.nordic-2.nordic-queen.sculpture {
+    background-color: lightskyblue;
+}
+
+
