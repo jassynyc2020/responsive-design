@@ -1,28 +1,79 @@
 @font-face {
-    font-family: "Lobster Two", sans-serif;
-    src: url("https://fonts.googleapis.com/css2?family=Arvo&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Source+Sans+Pro&display=swap");
-  }  
-
-.header {
-    display: flex;
-    flex-wrap: wrap;
+  font-family: "Lobster Two", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Arvo&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Source+Sans+Pro&display=swap");
 }
 
-.image {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 0 auto;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: inherit;
+}
+
+main {
+  margin: 0 auto;
 }
 
 .header {
-    background-color: hotpink;
-
+  background: blue;
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 5em;
+  color: rgba(255, 0, 191);
+  text-align: center;
+  border-radius: 200px;
+  border-style: double;
+  border-width: 50px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  max-width: 900px;
+  padding: 40px 0;
+  flex-direction: inherit;
 }
 
-.waterfall.baldur.nordic-1.nordic-2.nordic-queen.sculpture {
-    background-color: lightskyblue;
+#blue {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: inherit;
+  max-width: 900px;
 }
 
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+h2 {
+  color: fuchsia;
+  font-size: 5rem;
+  font-family: "Lobster Two";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+  padding-bottom: 11rem;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+  width: 80%;
+  max-width: 332px;
+}
+
+img {
+  width: 600px;
+  margin: 50px;
+  display: flex;
+  border-style: inset;
+  border-color: ghostwhite;
+  border-width: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
