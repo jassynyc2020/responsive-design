@@ -7,7 +7,8 @@ body {
   margin: 0 auto;
   background-color: lightskyblue;
   display: flex;
-  flex-direction: inherit;
+  flex-direction: ;
+
 }
 
 main {
@@ -63,8 +64,8 @@ h2 {
   justify-content: center;
   max-width: 900px;
   width: 80%;
-  max-width: 332px;
 }
+
 
 img {
   width: 600px;
