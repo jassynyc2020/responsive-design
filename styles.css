@@ -4,22 +4,21 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
+  height: auto;
   background-color: lightskyblue;
   display: flex;
-  flex-direction: ;
-
 }
 
 main {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header {
   background: blue;
   font-family: fantasy;
   font-weight: bolder;
-  font-size: 5em;
+  font-size: 5rem;
   color: rgba(255, 0, 191);
   text-align: center;
   border-radius: 200px;
@@ -28,9 +27,11 @@ main {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
-  max-width: 900px;
+  max-width: 100%;
   padding: 40px 0;
   flex-direction: inherit;
+  margin: 0;
+  flex: 0 1 40vw;
 }
 
 #blue {
@@ -51,8 +52,8 @@ h2 {
   color: fuchsia;
   font-size: 5rem;
   font-family: "Lobster Two";
+  margin: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   max-width: 900px;
   padding-bottom: 11rem;
@@ -66,7 +67,6 @@ h2 {
   width: 80%;
 }
 
-
 img {
   width: 600px;
   margin: 50px;
@@ -76,5 +76,5 @@ img {
   border-width: 1rem;
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 100%;
 }
