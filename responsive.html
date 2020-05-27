@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    -->
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Source+Sans+Pro&display=swap"
@@ -11,70 +15,69 @@
     <title>Responsive Design</title>
   </head>
   <body>
-    <main>
-          <header class="header">
-             <h1 class="title">Home of the Gods</h1>
-           <div id="blue">
-             <img src="./images/icelandbluescene.jpg" alt="Blue Scenery in Iceland">
-           </div>
-        </header>
-    
-       <section class="pictures">
+    <div class="container page-row">
+      <header class="page-col header">
+        <h1 class="title">Home of the Gods</h1>
+        <img
+          class="blue"
+          src="./images/icelandbluescene.jpg"
+          alt="Blue Scenery in Iceland"
+        />
+      </header>
 
-        <div class="pic" class="baldur">
-            <img src="./images/baldur.jpg" alt="baldur">
-            <h2>Baldur</h2>
-
-        <div><div class="pic">
-            <img src="./images/icelandwaterfall.jpeg" alt="waterfall">
-            <h2>Waterfall</h2>
-        </div>
-
-        <div class="pic">
-            <img src="./images/nordicgod1.jpeg" alt="nordic god 1">
-            <h2>Goddess Valkrie</h2>
-        </div>
-
-        <div class="pic">
-            <img src="./images/nordicgod2.jpeg" alt="nordic god 2">
-            <h2>Goddess Sigyn</h2>
-        </div>
-
-        <div class="pic">
-            <img src="./images/nordicqueen.jpeg" alt="nordic queen">
-            <h2>Goddess Frigg</h2>
-        </div>
-
-        <div class="pic">
-            <img src="./images/sculpture.jpg" alt="sculpture">
-            <h2>Goddess Freya</h2>
-        </div>
-
-        <div class="pic">
-            <img src="./images/ferryislandview.jpeg" alt="ferry view">
-            <h2>View from ferry</h2>
-        </div>
-
-          <div class="pic">
-            <img src="./images/hrisey1.jpeg" alt="Hrisey">
-            <h2>Hrisey</h2>
+      <main class="page-col">
+        <section class="pictures-row">
+          <div class="pic-col" class="baldur">
+            <img src="./images/baldur.jpg" alt="baldur" />
+            <p>Baldur</p>
           </div>
 
-            <div class="pic">
-              <img src="./images/hriseyenergytrail.jpeg" alt="Enery trail">
-               <h2>Energy Trail</h2>
-            </div>
+          <div class="pic-col">
+            <img src="./images/icelandwaterfall.jpeg" alt="waterfall" />
+            <p>Waterfall</p>
+          </div>
 
-            <div class="pic">
-              <img src="./images/map.jpeg" alt="Map">
-              <h2>Map of Iceland</h2>
-            </div>
+          <div class="pic-col">
+            <img src="./images/nordicgod1.jpeg" alt="nordic god 1" />
+            <p>Goddess Valkrie</p>
+          </div>
 
-    </section>
-   </main>
-   <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-   <script src="js/main.js"></script>
+          <div class="pic-col">
+            <img src="./images/nordicgod2.jpeg" alt="nordic god 2" />
+            <p>Goddess Sigyn</p>
+          </div>
 
+          <div class="pic-col">
+            <img src="./images/nordicqueen.jpeg" alt="nordic queen" />
+            <p>Goddess Frigg</p>
+          </div>
+
+          <div class="pic-col">
+            <img src="./images/sculpture.jpg" alt="sculpture" />
+            <p>Goddess Freya</p>
+          </div>
+
+          <div class="pic-col">
+            <img src="./images/ferryislandview.jpeg" alt="ferry view" />
+            <p>View from ferry</p>
+          </div>
+
+          <div class="pic-col">
+            <img src="./images/hrisey1.jpeg" alt="Hrisey" />
+            <p>Hrisey</p>
+          </div>
+
+          <div class="pic-col">
+            <img src="./images/hriseyenergytrail.jpeg" alt="Enery trail" />
+            <p>Energy Trail</p>
+          </div>
+
+          <div class="pic-col">
+            <img src="./images/map.jpeg" alt="Map" />
+            <p>Map of Iceland</p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
-  
 </html>

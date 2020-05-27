@@ -2,39 +2,45 @@
   font-family: "Lobster Two", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Arvo&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Source+Sans+Pro&display=swap");
 }
-
+html,
 body {
   margin: 0;
-  height: auto;
-  background-color: lightskyblue;
-  display: flex;
+  padding: 0;
 }
 
-main {
-  margin: auto;
+body {
+  background-color: lightskyblue;
+  font-size: 1rem;
+}
+body * {
+  box-sizing: border-box;
+  font-family: "Lobster Two";
+}
+.container {
+  padding: 0 30px 0 30px;
+}
+
+.page-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page-col {
+  width: 100%;
+}
+.pic-col {
+  width: 33.3%;
+  padding: 10px;
 }
 
 .header {
-  background: blue;
-  font-family: fantasy;
-  font-weight: bolder;
-  font-size: 5rem;
-  color: rgba(255, 0, 191);
-  text-align: center;
-  border-radius: 200px;
-  border-style: double;
-  border-width: 50px;
-  display: flex;
-  justify-content: center;
-  flex-flow: wrap;
-  max-width: 100%;
-  padding: 40px 0;
-  flex-direction: inherit;
-  margin: 0;
-  flex: 0 1 40vw;
+  border: 10px double fuchsia;
+  padding: 0 20px 0 20px;
+  background: white;
 }
 
-#blue {
+.blue {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -42,10 +48,10 @@ main {
   max-width: 900px;
 }
 
-.pictures {
+.pictures-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
 }
 
 h2 {
@@ -64,17 +70,34 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 900px;
-  width: 80%;
+  width: 100%;
 }
 
 img {
-  width: 600px;
-  margin: 50px;
-  display: flex;
-  border-style: inset;
-  border-color: ghostwhite;
-  border-width: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
+  width: 100%;
+}
+
+@media (min-width: 550px) {
+  .pic-col {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .page-row {
+    flex-direction: row;
+  }
+  .page-col {
+    width: 50%;
+  }
+  .pictures-row {
+    width: 25%;
+    border-radius: 20px;
+  }
+  .header {
+    max-height: 350px;
+  }
 }
